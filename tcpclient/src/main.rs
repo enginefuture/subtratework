@@ -3,6 +3,7 @@ use std::io::Write;
 use std::net::TcpStream;
 
 fn main() {
+    //建立连接
     let conn = TcpStream::connect("127.0.0.1:9999");
     match conn {
         Ok(mut stream) => {
@@ -17,6 +18,7 @@ fn main() {
                     println!("Recv: {}", recv_str);
                 }
             };
+            //传输内容
             say(b"Hello Substrate");
             say(b"lesson 3");
             say(b"end");
