@@ -2,7 +2,7 @@
 ![image](https://github.com/enginefuture/subtratework/blob/master/class4/plusu32/%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.png)
 
 
-```
+```rust
 fn plusu32(s :&[u32]) -> Option<u32>{
     let sum = s.iter().try_fold(0u32, |sum,x|sum.checked_add(*x));
     return sum
