@@ -1,4 +1,5 @@
 ```rust
+//转移存证
 pub fn transfer_claim(
             origin: OriginFor<T>,
             destination: T::AccountId,
