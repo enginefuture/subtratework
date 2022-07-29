@@ -1,0 +1,52 @@
+Arguments: 
+  /home/tabshi/.nvm/versions/node/v18.7.0/bin/node /home/tabshi/.nvm/versions/node/v18.7.0/bin/yarn install
+
+PATH: 
+  /home/tabshi/.nvm/versions/node/v18.7.0/bin:/home/tabshi/.pyenv/bin:/home/tabshi/.pyenv/bin:/home/tabshi/.pyenv/bin:/home/tabshi/.pyenv/bin:/home/tabshi/~/.cargo//bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0/libnvvp:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.1/libnvvp:/mnt/d/ProgramFiles/oraclesoftware/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/tabshi/src/vcpkg:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2020.1.1/:/mnt/c/Users/tabshi/protocwin64/bin:/mnt/c/Users/tabshi/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/tabshi/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Program Files/LLVM/bin:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/c/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/bin:/mnt/c/Users/tabshi/.cargo/bin:/mnt/c/Users/tabshi/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/tabshi/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/tabshi/AppData/Local/Microsoft/WindowsApps:/mnt/d/ProgramFiles/oraclesoftware:/mnt/c/Users/tabshi/AppData/Local/Programs/Fiddler:/mnt/c/Users/tabshi/.dotnet/tools:/mnt/c/Program Files/protoc-3.16.0-rc-2-win64/bin:/mnt/c/Program Files/etcd-v3.2.32-windows-amd64:/mnt/c/Program Files/MariaDB 10.5/bin:/mnt/c/Program Files/Redis-x64-3.2.100:/mnt/c/Program Files/bat-rust:/mnt/c/Users/tabshi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Exercism:/mnt/c/Program Files/PostgreSQL/13/bin:/mnt/c/Users/tabshi/AppData/Local/hyper/app-3.0.2/resources/bin:/mnt/c/Users/tabshi/AppData/Roaming/xPacks/@xpack-dev-tools/openocd/0.11.0-1.1/.content/bin:/mnt/d/Program Files/qemu:/mnt/c/Users/tabshi/AppData/Local/Programs/oh-my-posh/bin:/mnt/c/Users/tabshi/AppData/Local/Programs/oh-my-posh/themes:/mnt/c/Program Files (x86)/GitHub CLI/:/mnt/d/flutter/bin:/mnt/c/tools/dart-sd:/mnt/c/MinGW/bin:/mnt/c/tools/opencv/build/x64/vc15/bin:/mnt/c/Program Files/JetBrains/CLion 2022.2/bin:~/.cargo/bin:/usr/local/cuda/bin:~/.cargo/bin:/usr/local/cuda/bin:~/.cargo/bin:/usr/local/cuda/bin:~/.cargo/bin:/usr/local/cuda/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.7.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/tabshi/subtratework/class6/package.json: Unexpected token / in JSON at position 88
+      at JSON.parse (<anonymous>)
+      at /home/tabshi/.nvm/versions/node/v18.7.0/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/home/tabshi/.nvm/versions/node/v18.7.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/tabshi/.nvm/versions/node/v18.7.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "class6",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    // "private": false,
+  
+  
+    // "scripts": {
+    //   "start": "node --use_strict index.js",
+    //   "start:dev": "nodemon --use_strict --inspect index.js"
+    //   // "start:debug": "nodemon --use_strict --inspect index.js"
+    // },
+    "dependencies": {
+      "@polkadot/api": "^7.8.1",
+      "@polkadot/types": "^7.8.1",
+      "web3": "^1.5.1"
+    },
+    "devDependencies": {
+      "nodemon":"^2.0.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
