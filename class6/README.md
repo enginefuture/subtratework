@@ -9,5 +9,4 @@ const subscribeAliceBalance =async (api:ApiPromise) => {
     });
 };
 ```
-![image](https://github.com/enginefuture/subtratework/blob/master/class5/%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.png)
-![image](https://github.com/enginefuture/subtratework/blob/master/class5/%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE2.png)
+![image](https://github.com/enginefuture/subtratework/blob/master/class6/%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.png)
